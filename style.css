@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(255, 144, 15, 15%);
+}
+
+.btn-primary{
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 5px;
+}
+
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    color: black;
+}
+
+.brand{
+    font-size: 2rem;
+}
+
+.nav-links{
+    display: flex;
+    gap: 60px;
+    
+}
+
+.nav-links .nav-item{
+    list-style-type: none;
+}
+
+.nav-links .nav-item .nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner Section */
+
+.banner{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.text-content{
+    width: 50%;
+    margin: 45px auto;
+    text-align: center;;
+}
+
+.text-content h1{
+    font-size: 3rem;
+}
+
+.text-content p{
+    margin: 20px 0px;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* ******** our-checklist section ************** */
+
+.our-checklist{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.checklist-text h3{
+    font-size: 2.25rem;
+    color: #727272;
+}
+
+.checklist-text h3 :first-child{
+    color: black;
+}
+.checklist-text h3 :nth-child(4){
+    color: #FF900E;
+}
+
+
+.checklist-text p{
+    margin: 30px 0px;
+    font-size: 1rem;
+    color: #727272;
+}
+
+
+
+
+
+/* ****************! Media Query !***************** */
+
+@media (max-width: 576px) {
+    /* CSS rules for phones */
+    nav {
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .nav-links{
+        gap: 15px;
+        padding: 20px 0px;
+        
+    }
+    /* Banner Section */
+    
+    .text-content{
+        width: 85%;
+        margin: 25px auto;
+        text-align: center;
+    }
+    
+    .text-content h1{
+        font-size: 2rem;
+    }
+
+    /* Our CheckList */
+
+    .our-checklist{
+        width: 100%;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    /* CSS rules for tablets */
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for small laptops */
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* CSS rules for laptops/desktops */
+}
+
+
+
