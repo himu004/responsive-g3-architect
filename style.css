@@ -177,9 +177,54 @@ nav {
     text-align: center;
     color: #fff;
     border-radius: 7px;
-    margin-top: -110px;
+    margin-top: -130px;
     margin-left: -50px;
 }
+
+/* ********************************* */
+
+/* Facts Section */
+
+.facts{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.facts-text h3{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.facts-text p{
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.facts-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.fact-card{
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.fact-card > p{
+    font-size: 2.5rem;
+}
+
+.fact-card span{
+    color: #727272;
+}
+
 
 
 
@@ -223,6 +268,67 @@ nav {
 
     .img-container{
         grid-template-columns: 1fr;
+    }
+
+    /* ************ */
+
+    /* Featured Section */
+    
+    .features-container{
+        flex-direction: column;
+    }
+    
+    .features-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card{
+        padding: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.170) 0px 0px 10px 1px;
+        border-radius: 5px;
+    }
+    
+    .card-title{
+        padding: 10px 0px;
+        font-size: 1.35rem;
+        font-weight: 500;
+    }
+    
+    .card-description{
+        color: #727272;
+    }
+    
+    .features-img{
+        width: 100%;
+    }
+    
+  
+    
+    .ten-year{
+        width: 80%;
+        margin: -100px auto;
+    }
+
+    /* Facts Section */
+
+    .facts{
+        margin-top: 80px;
+    }
+
+    .facts-text{
+        text-align: center;
+    }
+
+    .facts-icons{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    .fact-card{
+
     }
 }
 
