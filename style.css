@@ -256,6 +256,19 @@ nav {
     filter: grayscale(1);
 }
 
+/* Footer */
+
+footer{
+    max-width: 85%;
+    background-color: #FFF4E7;
+    margin: 70px auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.20rem;
+    color: #727272;
+    border-radius: 5px;
+}
+
 /* ****************! Media Query !***************** */
 
 @media (max-width: 576px) {
